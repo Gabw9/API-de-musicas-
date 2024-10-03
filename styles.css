@@ -1,0 +1,38 @@
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: Arial, sans-serif; /* Fonte simples */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinha o título e o botão verticalmente */
+    height: 100vh; /* Altura total da tela */
+    margin: 0;
+}
+
+h1 {
+    background-color: rgba(0, 255, 255, 0.7); /* Fundo ciano desbotado */
+    color: #000; /* Texto preto */
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Sombra brilhante */
+    font-family: 'Arial Black', sans-serif; /* Fonte mais pesada para o título */
+    text-align: center;
+    margin-bottom: 20px; /* Espaço entre o título e o botão */
+}
+
+button {
+    background-color: rgba(0, 255, 255, 0.8); /* Fundo ciano para o botão */
+    color: #000; /* Texto preto */
+    border: none;
+    padding: 15px 30px; /* Espaçamento interno do botão */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* Sombra do botão */
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
+}
+
+button:hover {
+    background-color: rgba(0, 255, 255, 1); /* Cor mais intensa ao passar o mouse */
+}
